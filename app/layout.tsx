@@ -1,9 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Head from 'next/head'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Script from 'next/script'
+import { Suspense } from 'react'
+import Loading from './Loading'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -29,22 +31,32 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <title>Villa Agency - Real Estate HTML5 Template</title>
-     
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
 
+        <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    
-    <link rel="stylesheet" href="/assets/css/fontawesome.css"/>
-    <link rel="stylesheet" href="/assets/css/templatemo-villa-agency.css"/>
-    <link rel="stylesheet" href="/assets/css/owl.css"/>
-    <link rel="stylesheet" href="/assets/css/animate.css"/>
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="/assets/css/templatemo-villa-agency.css" />
+        <link rel="stylesheet" href="/assets/css/owl.css" />
+        <link rel="stylesheet" href="/assets/css/animate.css" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
       </head>
-      <body >
-     <Navbar/>
+      <body>
+                <Suspense fallback={<Loading/>}>
+
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+        </Suspense>
+        <Script src="vendor/jquery/jquery.min.js"/>
+        <Script src="vendor/bootstrap/js/bootstrap.min.js"/>
+        <Script src="assets/js/isotope.min.js"/>
+        <Script src="assets/js/owl-carousel.js"/>
+        <Script src="assets/js/counter.js"/>
+        <Script src="assets/js/custom.js"/>
+      </body>
     </html>
   );
 }
