@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Script from 'next/script'
 import { Suspense } from 'react'
-//import Loading from './Loading'
+import Loading from './Loading'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
