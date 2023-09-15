@@ -1,13 +1,18 @@
-
-import React from 'react'
+"use client";
+import React from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+    const pathname = usePathname();
+const cantact = pathname === "/contact";
+const propreties = pathname ==="/properties";
+const home = pathname ==="/"
   return (
     <>
       <div className="sub-header">
         <div className="container">
           <div className="row">
-    <div className="col-lg-8 col-md-8">
+            <div className="col-lg-8 col-md-8">
               <ul className="info">
                 <li>
                   <i className="fa fa-envelope"></i> info@company.com
@@ -49,24 +54,26 @@ export default function Navbar() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <a href="index.html" className="logo">
+                <a href="/" className="logo">
                   <h1>Villa</h1>
                 </a>
 
                 <ul className="nav">
                   <li>
-                    <a href="index.html" className="active">
+                    <a href="/" className={home ? "active" : ""}>
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="properties.html">Properties</a>
+                    <a href="properties" className={propreties ? "active" : ""}>
+                      Properties
+                    </a>
                   </li>
+
                   <li>
-                    <a href="property-details.html">Property Details</a>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact Us</a>
+                    <a href="contact" className={cantact ? "active" : ""}>
+                      Contact Us
+                    </a>
                   </li>
                   <li>
                     <a href="#">

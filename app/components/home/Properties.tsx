@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../propreties/Card';
+import Card from '../properties/Card';
 
 export default function Properties() {
     const propertyData = [
