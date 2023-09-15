@@ -1,5 +1,5 @@
 "use client"
-import BestDeals from "@/app/components/propreties/BeastDeal";
+import BestDeals from "@/app/components/properties/BestDeal";
 import { useEffect, useState } from "react";
 const dummydata = {
     area:450,
