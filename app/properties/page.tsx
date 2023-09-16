@@ -239,7 +239,7 @@ const propertyData = [
     Elevate your lifestyle and make this villa your grand masterpiece!`,
   accordionItems: [
     {
-      title: "Best useful links ?",
+      title: "Best useful links ? ",
       content: `VillaAgency is committed to providing you with the best resources and links to make your property search easy and efficient. Our team of experts is here to assist you at every step of the way.`,
     },
     {
