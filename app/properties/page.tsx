@@ -101,7 +101,7 @@ const propertyData = [
     imageUrl: "/assets/images/property-04.jpg",
     category: "Apartment",
     price: "$584.500",
-    address: "12 Hope Street Portland, OR 12650",
+    address: "12 Hope Street PortLand, OR 12650",
     bedrooms: 4,
     bathrooms: 3,
     area: "125m2",
@@ -177,15 +177,15 @@ const propertyData = [
     Embrace the future of living and make this condo your high-tech haven!`,
   accordionItems: [
     {
-      title: "Best useful links ?",
+      title: "Best useful links ? ",
       content: `VillaAgency is committed to providing you with the best resources and links to make your property search easy and efficient. Our team of experts is here to assist you at every step of the way.`,
     },
     {
-      title: "How does this work ?",
+      title: "How does this work ? ",
       content: `Finding your dream property with VillaAgency is a simple process. You can explore our listings, schedule visits, and our dedicated team will guide you through the contract and payment process.`,
     },
     {
-      title: "Why is Villa the best ?",
+      title: "Why is Villa the best ? ",
       content: `VillaAgency has a reputation for excellence and customer satisfaction. We prioritize safety and provide 24/7 security for your peace of mind. Choose VillaAgency for your real estate needs.`,
     },
   ],},
