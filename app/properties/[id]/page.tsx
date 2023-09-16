@@ -177,9 +177,9 @@ useEffect(() => {
                       style={{ maxWidth: "52px" }}
                     />
                     <h4>
-                      Payment
+                      Payment 
                       <br />
-                      <span>Payment Process</span>
+                      <span>Payment Process </span>
                     </h4>
                   </li>
                   <li>
@@ -191,7 +191,7 @@ useEffect(() => {
                     <h4>
                       Safety
                       <br />
-                      <span>24/7 Under Control</span>
+                      <span>24/7 Under Control </span>
                     </h4>
                   </li>
                 </ul>
