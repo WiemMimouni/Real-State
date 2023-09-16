@@ -24,7 +24,7 @@ export default function MainBanner() {
             <h2>
               Be Quick!
               <br />
-              Get the best villa in town
+              Get the best villa in tunisia
             </h2>
           </div>
         </div>
