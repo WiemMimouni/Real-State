@@ -278,7 +278,7 @@ const propertyData = [
       content: `Finding your dream property with VillaAgency is a simple process. You can explore our listings, schedule visits, and our dedicated team will guide you through the contract and payment process.`,
     },
     {
-      title: "Why is Villa the best ?",
+      title: "Why is Villa the best ? ",
       content: `VillaAgency has a reputation for excellence and customer satisfaction. We prioritize safety and provide 24/7 security for your peace of mind. Choose VillaAgency for your real estate needs.`,
     },
   ],},
