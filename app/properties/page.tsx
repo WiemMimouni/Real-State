@@ -274,7 +274,7 @@ const propertyData = [
       content: `VillaAgency is committed to providing you with the best resources and links to make your property search easy and efficient. Our team of experts is here to assist you at every step of the way.`,
     },
     {
-      title: "How does this work ?",
+      title: "How does this work ? ",
       content: `Finding your dream property with VillaAgency is a simple process. You can explore our listings, schedule visits, and our dedicated team will guide you through the contract and payment process.`,
     },
     {
